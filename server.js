@@ -9,5 +9,11 @@ app.get('/user', function (req, res) {
     res.send('Creating APIs on URL Pattern')
     console.log("GET Method")
   })
+
+app.post('/user', function (req, res) {
+    res.send('Creating APIs on URL Pattern')
+    console.log("POST Method")
+  })
+
 console.log('Server started at port : 3000')
 app.listen(3000)
